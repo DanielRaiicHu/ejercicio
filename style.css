@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-primario: #000000;
+    --color-secundario: #F6F6F6;
+    --color-terciario: #22D4D4;
+    
+    --fuente-montserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+}
+
+body {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    font-family: var(--fuente-montserrat);
+    display: flex;
+    flex-direction: column; /* Coloca el contenido en una columna */
+    justify-content: space-between; 
+}
+
+.header {
+    padding: 2% 0% 0% 15%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link {
+    font-family: var(--fuente-montserrat);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-terciario);
+    text-decoration: none;
+}
+
+.header__menu__link:hover {
+    color: var(--color-secundario);
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 15%;
+}
+
+.presentacion__contenido {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.presentacion__contenido__titulo {
+    font-size: 36px;
+    font-family: var(--fuente-krona);    
+}
+
+.titulo-destaque {
+    color: var(--color-terciario);
+}
+
+.presentacion__contenido__texto {
+    font-size: 24px;
+    font-family: var(--fuente-montserrat);
+}
+
+.preferencias {
+    display: flex; /* Alinea los elementos de manera horizontal */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se acomoden en varias líneas si es necesario */
+}
+
+.preferencias__subtitulo {
+    font-size: 24px;
+    font-family: var(--fuente-krona);
+    color: var(--color-secundario);
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%; /* Asegura que el título ocupe todo el ancho */
+}
+
+.preferencias__item {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos (título + imagen) en columna */
+    align-items: center; /* Centra el título y la imagen */
+    text-align: center;
+    width: 200px; /* Ancho fijo para cada ítem */
+}
+
+.preferencias__nombre {
+    font-size: 18px;
+    font-family: var(--fuente-montserrat);
+    color: var(--color-secundario);
+    margin-bottom: 10px; /* Ajusta el espacio entre el título y la imagen */
+}
+
+.preferencias__boton img {
+    width: 200px; /* Tamaño fijo para las imágenes */
+    height: 350px; /* Tamaño fijo para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    border: 3px solid var(--color-secundario);
+}
+
+.preferencias__boton:hover img {
+    transform: scale(1.05); /* Efecto de aumento en la imagen al pasar el cursor */
+    border: 3px solid var(--color-terciario);
+}
+
+.footer {
+    color: var(--color-primario);
+    background-color: var(--color-terciario);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: auto;
+}
