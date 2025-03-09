@@ -87,7 +87,7 @@ body {
 .preferencias__subtitulo {
     font-size: 24px;
     font-family: var(--fuente-krona);
-    color: var(--color-secundario);
+    color: var(--color-terciario);
     text-align: center;
     margin-bottom: 30px;
     width: 100%; /* Asegura que el título ocupe todo el ancho */
