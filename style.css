@@ -72,11 +72,6 @@ body {
     color: var(--color-terciario);
 }
 
-.titulo-destaque-2{
-    color: var(--color-secundario);
-    border-bottom: 2px solid var(--color-secundario);
-}
-
 .presentacion__contenido__texto {
     font-size: 24px;
     font-family: var(--fuente-montserrat);
@@ -92,7 +87,7 @@ body {
 .preferencias__subtitulo {
     font-size: 24px;
     font-family: var(--fuente-krona);
-    color: var(--color-terciario);
+    color: var(--color-secundario);
     text-align: center;
     margin-bottom: 30px;
     width: 100%; /* Asegura que el título ocupe todo el ancho */
@@ -111,6 +106,13 @@ body {
     font-family: var(--fuente-montserrat);
     color: var(--color-secundario);
     margin-bottom: 10px; /* Ajusta el espacio entre el título y la imagen */
+}
+
+.preferencias__boton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
 }
 
 .preferencias__boton img {
@@ -136,5 +138,4 @@ body {
     font-size: 24px;
     font-weight: 400;
     margin-top: auto;
-
 }
