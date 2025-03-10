@@ -29,13 +29,12 @@ Este proyecto es una página web que muestra mis animes, videojuegos y película
 ├── 📄 anime.html        # Página de animes favoritos
 ├── 📄 videojuegos.html  # Página de videojuegos favoritos
 ├── 📄 peliculas.html    # Página de películas favoritas
-├── 📁 assets            # Imágenes y recursos
+├── 📁 assets           # Imágenes y recursos
 │   ├── anime.jpg
 │   ├── videojuegos.jpg
 │   ├── peliculas.jpg
-│   ├── más imagenes...        
 ├── 📁 css              # Archivos de estilos
-├───├─ styles.css
+│   ├── styles.css
 
 
 🚀 Instalación y Uso
