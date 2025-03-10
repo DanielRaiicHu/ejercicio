@@ -22,21 +22,6 @@ Este proyecto es una página web que muestra mis animes, videojuegos y película
 
 - Flexbox: Para la alineación de las imágenes y secciones.
 
-📂 Estructura del Proyecto
-
-📁 Proyecto
-├── 📄 index.html
-├── 📄 anime.html
-├── 📄 videojuegos.html
-├── 📄 peliculas.html
-├── 📁 assets
-│   ├── anime.jpg
-│   ├── videojuegos.jpg
-│   ├── peliculas.jpg
-├── 📁 css
-│   ├── styles.css
-
-
 🚀 Instalación y Uso
 
 Clona este repositorio:
