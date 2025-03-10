@@ -48,6 +48,10 @@ Clona este repositorio:
 
 3. Navega por las categorías desde el menú o haciendo clic en las imágenes.
 
+ 🚀 Ejecutar
+
+ - Para ejecutar la aplicación, debe presionar el siguiente enlace: https://danielraiichu.github.io/ejercicio/
+
 📌 Autor
 
 Desarrollado por Daniel Aranzáez para fines educativos en Alura Latam.
