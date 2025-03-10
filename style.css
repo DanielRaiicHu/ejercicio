@@ -72,6 +72,11 @@ body {
     color: var(--color-terciario);
 }
 
+.titulo-destaque-2{
+    color: var(--color-secundario);
+    border-bottom: 2px solid var(--color-secundario);
+}
+
 .presentacion__contenido__texto {
     font-size: 24px;
     font-family: var(--fuente-montserrat);
