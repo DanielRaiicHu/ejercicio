@@ -2,6 +2,7 @@
 
 Este proyecto es una página web que muestra mis animes, videojuegos y películas favoritas. Los usuarios pueden navegar por las categorías a través del menú superior o seleccionando una imagen correspondiente.
 
+
 🌟 Características
 
 - Diseño responsivo y moderno.
@@ -11,6 +12,7 @@ Este proyecto es una página web que muestra mis animes, videojuegos y película
 - Cada categoría (anime, videojuegos y películas) lleva a una nueva pantalla con el contenido correspondiente.
 
 - Estilos personalizados con CSS para una mejor experiencia visual.
+
 
 🛠️ Tecnologías Utilizadas
 
@@ -22,6 +24,7 @@ Este proyecto es una página web que muestra mis animes, videojuegos y película
 
 - Flexbox: Para la alineación de las imágenes y secciones.
 
+
 🚀 Instalación y Uso
 
 Clona este repositorio:
@@ -32,10 +35,12 @@ Clona este repositorio:
 
 3. Navega por las categorías desde el menú o haciendo clic en las imágenes.
 
+
  🚀 Ejecutar
 
  - Para ejecutar la aplicación, debe presionar el siguiente enlace: https://danielraiichu.github.io/ejercicio/
 
+
 📌 Autor
 
-Desarrollado por Daniel Aranzáez para fines educativos en Alura Latam.
+- Desarrollado por Daniel Aranzáez para fines educativos en Alura Latam.
