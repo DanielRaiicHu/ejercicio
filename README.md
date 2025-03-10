@@ -25,15 +25,15 @@ Este proyecto es una página web que muestra mis animes, videojuegos y película
 📂 Estructura del Proyecto
 
 📁 Proyecto
-├── 📄 index.html        # Página principal con las categorías
-├── 📄 anime.html        # Página de animes favoritos
-├── 📄 videojuegos.html  # Página de videojuegos favoritos
-├── 📄 peliculas.html    # Página de películas favoritas
-├── 📁 assets           # Imágenes y recursos
+├── 📄 index.html
+├── 📄 anime.html
+├── 📄 videojuegos.html
+├── 📄 peliculas.html
+├── 📁 assets
 │   ├── anime.jpg
 │   ├── videojuegos.jpg
 │   ├── peliculas.jpg
-├── 📁 css              # Archivos de estilos
+├── 📁 css
 │   ├── styles.css
 
 
